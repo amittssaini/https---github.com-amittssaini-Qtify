@@ -1,0 +1,27 @@
+
+ /* we create a variable of this color so we use variable instead color code where we want
+ to use this color further in the code  */
+:root{
+  --primary-color:#34C94B;
+  --black-color:#121212;
+  --white-color:#fff;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+/* uinversal selector (select all the element and set margin 0 ) */
+*{
+  margin: 0;
+}
+body{
+  font-family:'Poppins','sans-seriff';
+  background-color: var(--black-color);
+  color: var(--white-color);
+  line-height: 1.5;
+  overflow: hidden;
+
+}

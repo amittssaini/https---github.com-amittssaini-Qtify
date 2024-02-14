@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+}
+.input{
+width: 568px;
+height: 48px;
+top: 13px;
+left: 436px;
+border-radius: 8px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border: 1px;
+border: 1px 1px 1px 1px;
+color: #121212;
+
+}
+.button{
+width: 66px;
+height: 48px;
+top: 13px;
+left: 938px;
+border-radius: 0px, 8px, 8px, 0px;
+border: 1px;
+
+}

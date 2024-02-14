@@ -1,0 +1,18 @@
+.button{
+ Width:Hug (170px);
+ Height:Hug (47px);
+ background-color: var(--black-color);
+ color:var(--primary-color);
+ border-radius: 12px;
+ padding: 10px 16px;
+ cursor: pointer;
+
+
+ font-family: 'Poppins';
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0.25px;
+text-align: center;
+
+}
