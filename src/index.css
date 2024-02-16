@@ -1,27 +1,35 @@
-
- /* we create a variable of this color so we use variable instead color code where we want
- to use this color further in the code  */
-:root{
-  --primary-color:#34C94B;
-  --black-color:#121212;
-  --white-color:#fff;
+:root {
+  --color-primary: #34c94b;
+  --color-white: #ffffff;
+  --color-black: #121212;
 }
 
 *,
-*::after,
-*::before{
+*::before,
+*::after {
   box-sizing: border-box;
 }
-
-/* uinversal selector (select all the element and set margin 0 ) */
-*{
+* {
   margin: 0;
 }
-body{
-  font-family:'Poppins','sans-seriff';
-  background-color: var(--black-color);
-  color: var(--white-color);
+html,body {
+  height: 100%;
+}
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-  overflow: hidden;
+  overflow-x: hidden;
+}
 
+img,svg{
+  display: block;
+  /* align-items: center; */
+  max-width: 100%;
+  /* margin: 5px; */
+}
+
+.swiper-slide{
+  width: auto !important;
 }
