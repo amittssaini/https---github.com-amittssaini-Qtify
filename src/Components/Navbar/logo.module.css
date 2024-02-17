@@ -4,9 +4,21 @@ height: 34px;
 top: 20px;
 left: 32px;
 align-items: center; */
-
+/* display: flex;
+align-items: center;
 width: 67px;
 height: 34px;
 /*20px; /* Adjust as needed */
-margin-left: 32px; /* Center horizontally */
+ /*margin-left: 32px; Center horizontally */
+
+
+
+
+
+
+display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+
 }
