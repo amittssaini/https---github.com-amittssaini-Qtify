@@ -1,8 +1,12 @@
 .logo{
-    width: 67px;
+/* width: 67px;
 height: 34px;
 top: 20px;
 left: 32px;
-align-items: center;
+align-items: center; */
 
+width: 67px;
+height: 34px;
+/*20px; /* Adjust as needed */
+margin-left: 32px; /* Center horizontally */
 }
